@@ -53,6 +53,7 @@ const QuestionScreen: React.FC<QuestionScreenProps> = ({
               <React.Fragment key={index}>
                 {sentence.trim() + (index < array.length - 2 ? "." : "")}
                 <br />
+                <br />
               </React.Fragment>
             );
           })}
